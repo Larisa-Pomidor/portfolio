@@ -1,5 +1,11 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿<?php include 'variations.php' ?>
+<?php
+$woman_code = "532889";
+$man_code = "634389";
+?>
+
+<!DOCTYPE html>
+<html lang="en" theme="<?php echo $_GET['id'] == $man_code ? "dark" : "light" ?>">
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -17,14 +23,8 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
 </head>
 
-
-
 <body>
-	<?php include 'variations.php' ?>
-	<?php
-	$woman_code = "532889";
-	$man_code = "634389";
-	?>
+
 	<?php
 	if (
 		isset($_GET['lang']) && isset($_GET['id'])
@@ -520,7 +520,7 @@
 								<!-- timeline wrapper -->
 								<div class="timeline exp bg-white rounded shadow-dark padding-30 overflow-hidden">
 
-								<?php
+									<?php
 									$work = $var[$lang]["experience"]["work"];
 									foreach ($work as &$value) {
 									?>
