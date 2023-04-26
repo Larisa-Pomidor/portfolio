@@ -5,6 +5,7 @@ $var = array(
             "woman" => "Larisa Pomidor",
             "man" => "Hot Puss Invader"
         ),
+        "short" => "I'm a Full Stack Developer",
         "main-btn" => "Contact Me",
         "menu" => array(
             "home" => "Meet Me",
@@ -110,6 +111,7 @@ $var = array(
             "woman" => "Лариса Помидор",
             "man" => "Тима Котеночек"
         ),
+        "short" => "Я Full Stack Разработчик",
         "main-btn" => "Связаться",
         "menu" => array(
             "home" => "Знакомство",
@@ -214,6 +216,7 @@ $var = array(
             "woman" => "Лариса Помідор",
             "man" => "Тіма Кошенятко"
         ),
+        "short" => "Я Full Stack Розробник",
         "main-btn" => "Зв'язатись",
         "menu" => array(
             "home" => "Знайомство",

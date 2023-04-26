@@ -83,7 +83,7 @@
 					<!-- logo image -->
 					<div class="site-logo">
 						<a href="index.html">
-							<img src="images/logo.svg" alt="Bolby">
+							<img src="images/logo.svg" alt="">
 						</a>
 					</div>
 				</div>
@@ -95,7 +95,7 @@
 				<!-- logo image -->
 				<div class="site-logo">
 					<a href="index.html">
-						<img src="images/logo.svg" alt="Bolby">
+						<img src="images/logo.svg" alt="">
 					</a>
 				</div>
 
@@ -129,11 +129,11 @@
 						<!-- intro -->
 						<div class="intro">
 							<!-- avatar image -->
-							<img src="images/avatar-1.svg" alt="Bolby" class="mb-4">
+							<img src="images/avatar-1.svg" alt="" class="mb-4">
 
 							<!-- info -->
 							<h1 class="mb-2 mt-0"><?php echo $var[$lang]["name"][$sex]; ?></h1>
-							<span>I'm a <span class="text-rotating">UI/UX designer, Front-End developer, Photography lover</span></span>
+							<span><?php echo $var[$lang]["short"]; ?></span>
 
 							<!-- social icons -->
 							<ul class="social-icons light list-inline mb-0 mt-4">
@@ -251,7 +251,7 @@
 							<div class="col-md-2">
 								<div class="text-center text-md-left">
 									<!-- avatar image -->
-									<img src="images/avatar-2.svg" alt="Bolby">
+									<img src="images/avatar-2.svg" alt="">
 								</div>
 								<div class="spacer d-md-none d-lg-none" data-height="30"></div>
 							</div>
