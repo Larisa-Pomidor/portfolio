@@ -1,4 +1,5 @@
 ﻿<?php include 'variations.php' ?>
+<?php include 'projects.php' ?>
 <?php
 $woman_code = "532889";
 $man_code = "634389";
@@ -114,7 +115,7 @@ $man_code = "634389";
 				<!-- site footer -->
 				<div class="footer">
 					<!-- copyright text -->
-					<span class="copyright">© 2023 2SPLWeb Studio.</span>
+					<span class="copyright">© <?php echo date("Y"); ?> 2SPLWeb Studio.</span>
 				</div>
 
 			</header>
@@ -561,50 +562,72 @@ $man_code = "634389";
 
 						<!-- portfolio filter (desktop) -->
 						<ul class="portfolio-filter list-inline wow fadeInUp">
-							<li class="current list-inline-item" data-filter="*">Everything</li>
-							<li class="list-inline-item" data-filter=".creative">Creative</li>
-							<li class="list-inline-item" data-filter=".art">Art</li>
-							<li class="list-inline-item" data-filter=".design">Design</li>
-							<li class="list-inline-item" data-filter=".branding">Branding</li>
+							<li class="current list-inline-item" data-filter="*"><?php echo $var[$lang]["portfolio-list"]["all"]; ?></li>
+							<li class="list-inline-item" data-filter=".layout"><?php echo $var[$lang]["portfolio-list"]["layout"]; ?></li>
+							<li class="list-inline-item" data-filter=".wordpress">Wordpress</li>
+							<li class="list-inline-item" data-filter=".react">React</li>
+							<li class="list-inline-item" data-filter=".vue">Vue.js</li>
+							<li class="list-inline-item" data-filter=".bootstrap">Bootstrap</li>
+							<li class="list-inline-item" data-filter=".js">Vanilla Js / Jquery</li>
+							<li class="list-inline-item" data-filter=".php">PHP</li>
+							<li class="list-inline-item" data-filter=".games"><?php echo $var[$lang]["portfolio-list"]["games"]; ?></li>
+							<li class="list-inline-item" data-filter=".tilda">Tilda</li>
+							<li class="list-inline-item" data-filter=".bitrix">Bitrix24</li>
+							<li class="list-inline-item" data-filter=".design"><?php echo $var[$lang]["portfolio-list"]["design"]; ?></li>
+							<li class="list-inline-item" data-filter=".widgets"><?php echo $var[$lang]["portfolio-list"]["widgets"]; ?></li>
 						</ul>
 
 						<!-- portfolio filter (mobile) -->
 						<div class="pf-filter-wrapper">
 							<select class="portfolio-filter-mobile">
-								<option value="*">Everything</option>
-								<option value=".creative">Creative</option>
-								<option value=".art">Art</option>
-								<option value=".design">Design</option>
-								<option value=".branding">Branding</option>
+								<option value="*"><?php echo $var[$lang]["portfolio-list"]["all"]; ?></option>
+								<option value=".layout"><?php echo $var[$lang]["portfolio-list"]["layout"]; ?></option>
+								<option value=".wordpress">Wordpress</option>
+								<option value=".react">React</option>
+								<option value=".vue">Vue.js</option>
+								<option value=".bootstrap">Bootstrap</option>
+								<option value=".js">Vanilla Js / Jquery</option>
+								<option value=".php">PHP</option>
+								<option value=".games"><?php echo $var[$lang]["portfolio-list"]["games"]; ?></option>
+								<option value=".tilda">Tilda</option>
+								<option value=".bitrix">Bitrix24</option>
+								<option value=".design"><?php echo $var[$lang]["portfolio-list"]["design"]; ?></option>
+								<option value=".widgets"><?php echo $var[$lang]["portfolio-list"]["widgets"]; ?></option>
 							</select>
 						</div>
 
 						<!-- portolio wrapper -->
 						<div class="row portfolio-wrapper">
 
-							<!-- portfolio item -->
-							<div class="col-md-4 col-sm-6 grid-item creative design">
-								<a href="#small-dialog" class="work-content">
-									<div class="portfolio-item rounded shadow-dark">
-										<div class="details">
-											<span class="term">Creative</span>
-											<h4 class="title">Guest App Walkthrough Screens</h4>
-											<span class="more-button"><i class="icon-options"></i></span>
+							<?php
+							$proj_counter = 0;
+							foreach ($proj as &$value) {
+							?>
+								<div class="col-md-4 col-sm-6 grid-item <?php echo $value["cat"]; ?>">
+									<a href="#small-dialog-<?php echo $proj_counter; ?>" class="work-content">
+										<div class="portfolio-item rounded shadow-dark">
+											<div class="details">
+												<span class="term"><?php echo $value["tag"]; ?></span>
+												<h4 class="title"><?php echo $value["lang"][$lang]["title"]; ?></h4>
+												<span class="more-button"><i class="icon-options"></i></span>
+											</div>
+											<div class="thumb">
+												<img src="images/works/<?php echo $value["image"]; ?>">
+												<div class="mask"></div>
+											</div>
 										</div>
-										<div class="thumb">
-											<img src="images/works/2.svg" alt="Portfolio-title">
-											<div class="mask"></div>
-										</div>
+									</a>
+									<div id="small-dialog-<?php echo $proj_counter++; ?>" class="white-popup zoom-anim-dialog mfp-hide">
+										<img src="images/works/<?php echo $value["image"]; ?>">
+										<h3><?php echo $value["lang"][$lang]["title"]; ?></h3>
+										<p class="small-tech"><?php echo $value["tech"]; ?></p>
+										<p><?php echo $value["lang"][$lang]["desc"]; ?></p>
+										<a href="<?php echo $value["link"]; ?>" class="btn btn-default" target="_blank"><?php echo $var[$lang]["portfolio-btn"]; ?></a>
 									</div>
-								</a>
-								<div id="small-dialog" class="white-popup zoom-anim-dialog mfp-hide">
-									<img src="images/single-work.svg" alt="Title">
-									<h2>Guest App Walkthrough Screens</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam hendrerit nibh in massa semper rutrum. In rhoncus eleifend mi id tempus.</p>
-									<p>Donec consectetur, libero at pretium euismod, nisl felis lobortis urna, id tristique nisl lectus eget ligula.</p>
-									<a href="#" class="btn btn-default">View on Dribbble</a>
 								</div>
-							</div>
+							<?php
+							}
+							?>
 
 						</div>
 
@@ -706,12 +729,12 @@ $man_code = "634389";
 		<?php
 		} else {
 		?>
-			Сорян))))
+			Forbidden by 2SPLWeb Studio <?php echo date("Y"); ?>.
 		<?php
 		}
 	} else {
 		?>
-		Сорян))))
+		Forbidden by 2SPLWeb Studio <?php echo date("Y"); ?>.
 	<?php
 	}
 	?>

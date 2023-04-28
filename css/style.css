@@ -16,7 +16,7 @@ html[theme="dark"] {
 }
 
 html[theme="light"] {
-  --main-bg-color: #581454;
+  --main-bg-color: #461338;
 }
 
 body {
@@ -2398,9 +2398,16 @@ body.dark .blog-page-section .blog-single {
   border-radius: 25px;
   padding: 30px;
   text-align: left;
-  max-width: 650px;
+  max-width: 450px;
   margin: 40px auto;
   position: relative;
+}
+
+.small-tech {
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #ff4c60;
 }
 
 /**

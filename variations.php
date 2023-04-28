@@ -96,6 +96,14 @@ $var = array(
             )
         ),
         "portfolio-title" => "Recent works",
+        "portfolio-list" => array(
+            "all" => "All",
+            "layout" => "Responsive layouts",
+            "games" => "Games",
+            "design" => "Design",
+            "widgets" => "Widgets"
+        ),
+        "portfolio-btn" => "Open Project",
         "contacts-title" => "Contacts",
         "contacts-subtitle" => "Let's cooperate right now!",
         "contacts-text" => "To reach me faster, please message me on",
@@ -201,6 +209,14 @@ $var = array(
             )
         ),
         "portfolio-title" => "Последние работы",
+        "portfolio-list" => array(
+            "all" => "Все",
+            "layout" => "Адаптивная вёрстка",
+            "games" => "Игры",
+            "design" => "Дизайн",
+            "widgets" => "Виджеты"
+        ),
+        "portfolio-btn" => "Открыть Проект",
         "contacts-title" => "Контакты",
         "contacts-subtitle" => "Давайте сотрудничать прямо сейчас!",
         "contacts-text" => "Чтобы быстрее связаться со мной, пишите мне в",
@@ -268,6 +284,14 @@ $var = array(
             )
         ),
         "portfolio-title" => "Останні роботи",
+        "portfolio-list" => array(
+            "all" => "Все",
+            "layout" => "Адаптивна верстка",
+            "games" => "Ігри",
+            "design" => "Дизайн",
+            "widgets" => "Віджети"
+        ),
+        "portfolio-btn" => "Відкрити Проєкт",
         "custom" => "На цьому магія не закінчується :) Опишіть своє завдання, і я обов'язково Вам допоможу!",
         "experience-title" => "Досвід",
         "experience" => array(
