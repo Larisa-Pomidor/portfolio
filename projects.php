@@ -3,163 +3,50 @@ $proj = array(
     [
         "lang" => array(
             "en" => array(
-                "title" => "Magic Forest Parallax",
-                "desc" => "A demonstration website made using parallax scrolling effect."
+                "title" => "Tasty Blog",
+                "desc" => "Tasty Blog - a vibrant blog built with Vue.js that will surely interest your readers."
             ),
 
             "ru" => array(
-                "title" => "Магический параллакс",
-                "desc" => "Демонстрационный сайт, выполненый с использованием параллакс-эффекта при прокрутке страницы."
+                "title" => "Tasty Blog",
+                "desc" => "Tasty Blog - яркий блог на Vue.js, который точно заинтересует ваших читателей."
             ),
 
             "uk" => array(
-                "title" => "Магичічний паралакс",
-                "desc" => "Демонстраційний сайт, створений з використанням ефекту паралаксу при прокрутці сторінки."
+                "title" => "Tasty Blog",
+                "desc" => "Tasty Blog - яскравий блог на Vue.js, який точно зацікавить ваших читачів."
             )
         ),
-        "tech" => "HTML, CSS, Vanilla JS",
-        "image" => "project-1.jpg",
-        "link" => "https://2splfreelance.000webhostapp.com/codepen/ForestParallaxScroll/",
-        "tag" => "Parallax",
-        "cat" => "layout js design"
+        "tech" => "HTML, CSS, Vue, BEM",
+        "image" => "project-13.jpg",
+        "link" => "https://papaya-pastelito-3c72f7.netlify.app/",
+        "tag" => "Tasty Blog",
+        "cat" => "layout design vue"
     ],
+
     [
         "lang" => array(
+
             "en" => array(
-                "title" => "Crazy Cat",
-                "desc" => "A simple React game where you play as a jumping cat."
+                "title" => "NeoTech",
+                "desc" => "NeoTech - a blog about modern IT trends on Wordpress."
             ),
 
             "ru" => array(
-                "title" => "Прыгай, если сможешь",
-                "desc" => "Простая игра на React с прыгающим котом в главной роли."
+                "title" => "NeoTech",
+                "desc" => "NeoTech - блог о современных тенденциях в сфере IT на Wordpress."
             ),
 
             "uk" => array(
-                "title" => "Стрибай, якщо зможеш",
-                "desc" => "Проста гра на React зі стрибаючим котом у головній ролі."
+                "title" => "NeoTech",
+                "desc" => "NeoTech - блог про сучасні тенденції у сфері IT на Wordpress."
             )
         ),
-        "tech" => "HTML, CSS, React",
-        "image" => "project-2.jpg",
-        "link" => "https://codepen.io/2splband/pen/OJomMPB",
-        "tag" => "Game",
-        "cat" => "react games"
-    ],
-    [
-        "lang" => array(
-            "en" => array(
-                "title" => "Parallax Slider",
-                "desc" => "A website header slider with a parallax effect when scrolling the page."
-            ),
-
-            "ru" => array(
-                "title" => "Слайдер з параллакс-эффектом",
-                "desc" => "Слайдер для шапки сайта с использованием параллакс-эффекта при прокрутке страницы."
-            ),
-
-            "uk" => array(
-                "title" => "Слайдер з паралакс-эфектом",
-                "desc" => "Слайдер для шапки сайту з використанням паралакс-ефекту при прокручуванні сторінки."
-            )
-        ),
-        "tech" => "HTML, CSS, Vanilla JS",
-        "image" => "project-3.jpg",
-        "link" => "https://2splfreelance.000webhostapp.com/codepen/JsSliderBeautyParallax/",
-        "tag" => "Slider",
-        "cat" => "widgets js"
-    ],
-    [
-        "lang" => array(
-            "en" => array(
-                "title" => "Music Player",
-                "desc" => "A stylized audio player for a website."
-            ),
-
-            "ru" => array(
-                "title" => "Аудио проигрыватель",
-                "desc" => "Стилизованный аудиоплеер для сайта."
-            ),
-
-            "uk" => array(
-                "title" => "Аудіо програвач",
-                "desc" => "Стилізований аудіоплеєр для сайту."
-            )
-        ),
-        "tech" => "HTML, CSS, Vanilla JS",
-        "image" => "project-4.jpg",
-        "link" => "https://2splfreelance.000webhostapp.com/codepen/StyledAudioPlayer/",
-        "tag" => "Audio",
-        "cat" => "widgets js"
-    ],
-    [
-        "lang" => array(
-            "en" => array(
-                "title" => "Bouquet Calculator",
-                "desc" => "Convenient bouquet calculator for a website on Vue.js."
-            ),
-
-            "ru" => array(
-                "title" => "Калькулятор букетов",
-                "desc" => "Удобный калькулятор букетов для сайта на Vue.js."
-            ),
-
-            "uk" => array(
-                "title" => "Калькулятор букетів",
-                "desc" => "Зручний калькулятор букетів для сайту на Vue.js."
-            )
-        ),
-        "tech" => "HTML, CSS, Vue.js",
-        "image" => "project-7.jpg",
-        "link" => "https://codepen.io/2splband/pen/jOvvQaG",
-        "tag" => "Calculator",
-        "cat" => "layout vue design widgets"
-    ],
-    [
-        "lang" => array(
-            "en" => array(
-                "title" => "AdBoost Landing",
-                "desc" => "A creative landing page for a company that specializes in creating advertising."
-            ),
-
-            "ru" => array(
-                "title" => "Лендинг AdBoost",
-                "desc" => "Кретивный лендинг для компании, которая занимается созданием рекламы."
-            ),
-
-            "uk" => array(
-                "title" => "Лендінг AdBoost",
-                "desc" => "Креативний лендінг для компанії, яка займається створенням реклами."
-            )
-        ),
-        "tech" => "HTML, CSS, Jquery, Bootstrap",
-        "image" => "project-8.jpg",
-        "link" => "https://2splfreelance.000webhostapp.com/local/AdvertisingLanding/",
-        "tag" => "AdBoost",
-        "cat" => "layout bootstrap design js"
-    ],
-    [
-        "lang" => array(
-            "en" => array(
-                "title" => "Shopping Cart Template",
-                "desc" => "A simple internet shop cart page, designed with SASS/SCSS."
-            ),
-
-            "ru" => array(
-                "title" => "Шаблон для корзины онлайн-товаров",
-                "desc" => "Простая страничка для корзины интернет-магазина, выполненная на SASS/SCSS."
-            ),
-
-            "uk" => array(
-                "title" => "Шаблон для онлайн-кошика товарів",
-                "desc" => "Проста сторінка для кошика інтернет-магазину, виконана на SASS/SCSS."
-            )
-        ),
-        "tech" => "HTML, SCSS",
-        "image" => "project-9.jpg",
-        "link" => "https://2splfreelance.000webhostapp.com/local/CartSass/",
-        "tag" => "Cart",
-        "cat" => "layout design"
+        "tech" => "HTML, CSS, Bootstrap, Wordpress",
+        "image" => "project-49.jpg",
+        "link" => "https://imitable-mailbox.000webhostapp.com/",
+        "tag" => "NeoTech",
+        "cat" => "design layout bootstrap wordpress php"
     ],
     [
         "lang" => array(
@@ -187,6 +74,29 @@ $proj = array(
     [
         "lang" => array(
             "en" => array(
+                "title" => "2SPLBand",
+                "desc" => "Website for live streaming of a music band on React."
+            ),
+
+            "ru" => array(
+                "title" => "2SPLBand",
+                "desc" => "Сайт для проведения стримов музыкальной группы на React."
+            ),
+
+            "uk" => array(
+                "title" => "2SPLBand",
+                "desc" => "Сайт для проведення стрімів музичної групи на React."
+            )
+        ),
+        "tech" => "HTML, CSS, React",
+        "image" => "project-24.jpg",
+        "link" => "http://2splband.000webhostapp.com/",
+        "tag" => "2SPLBand",
+        "cat" => "react layout"
+    ],
+    [
+        "lang" => array(
+            "en" => array(
                 "title" => "Душевная Гармония Landing",
                 "desc" => "An atmospheric landing page for a psychologist's services, with a feedback form."
             ),
@@ -209,49 +119,97 @@ $proj = array(
     ],
     [
         "lang" => array(
+
             "en" => array(
-                "title" => "PhotoShot Website",
-                "desc" => "PhotoShot - a website for on-location photo and video services."
+                "title" => "Абетка",
+                "desc" => "A website for a kindergarten of future superheroes who are just learning about the world, built on Wordpress."
             ),
 
             "ru" => array(
-                "title" => "PhotoShot",
-                "desc" => "PhotoShot - сайт для услуг фото- и видеосъемки с выездом на дом. "
+                "title" => "Абетка",
+                "desc" => "Сайт дитячого садочка для майбутніх супергероїв, що тільки вчаться пізнавати світ на Wordpress."
             ),
 
             "uk" => array(
-                "title" => "PhotoShot",
-                "desc" => "PhotoShot - сайт для послуг фото- та відеозйомки з виїздом."
+                "title" => "Абетка",
+                "desc" => "Сайт дитячого садочка для майбутніх супергероїв, що тільки вчаться пізнавати світ, побудований на Wordpress."
             )
         ),
-        "tech" => "HTML, CSS, React",
-        "image" => "project-12.jpg",
-        "link" => "https://cozy-manatee-68aba8.netlify.app/",
-        "tag" => "PhotoShot",
-        "cat" => "layout design react"
+        "tech" => "HTML, CSS, Bootstrap, Wordpress",
+        "image" => "project-48.jpg",
+        "link" => "https://untidying-administr.000webhostapp.com/",
+        "tag" => "Абетка",
+        "cat" => "design layout bootstrap wordpress php"
+    ],
+
+    [
+        "lang" => array(
+            "en" => array(
+                "title" => "Custom cake landing page",
+                "desc" => "Template for custom cake and pastry baking services on the Bitrix24 platform."
+            ),
+
+            "ru" => array(
+                "title" => "Лендинг для тортов на заказ",
+                "desc" => "Шаблон для выпечки тортов и вкусняшек на платформе Bitrix24."
+            ),
+
+            "uk" => array(
+                "title" => "Лендінг для тортів на замовлення",
+                "desc" => "Шаблон для випічки тортів та смаколиків на платформі Bitrix24."
+            )
+        ),
+        "tech" => "Bitrix24",
+        "image" => "project-35.jpg",
+        "link" => "https://b24-xg6ba9.bitrix24.site",
+        "tag" => "Cakes",
+        "cat" => "design bitrix"
     ],
     [
         "lang" => array(
             "en" => array(
-                "title" => "Tasty Blog",
-                "desc" => "Tasty Blog - a vibrant blog built with Vue.js that will surely interest your readers."
+                "title" => "Дай Лапу",
+                "desc" => "Landing page for a dog trainer's services on the Bitrix24 platform."
             ),
 
             "ru" => array(
-                "title" => "Tasty Blog",
-                "desc" => "Tasty Blog - яркий блог на Vue.js, который точно заинтересует ваших читателей."
+                "title" => "Дай Лапу",
+                "desc" => "Лендинг для услуг кинолога на платформе Bitrix24."
             ),
 
             "uk" => array(
-                "title" => "Tasty Blog",
-                "desc" => "Tasty Blog - яскравий блог на Vue.js, який точно зацікавить ваших читачів."
+                "title" => "Дай Лапу",
+                "desc" => "Лендінг для послуг кінолога на платформі Bitrix24."
             )
         ),
-        "tech" => "HTML, CSS, Vue, BEM",
-        "image" => "project-13.jpg",
-        "link" => "https://papaya-pastelito-3c72f7.netlify.app/",
-        "tag" => "Tasty Blog",
-        "cat" => "layout design vue"
+        "tech" => "Bitrix24",
+        "image" => "project-25.jpg",
+        "link" => "https://b24-tk1bva.bitrix24.site",
+        "tag" => "Дай Лапу",
+        "cat" => "design bitrix"
+    ],
+    [
+        "lang" => array(
+            "en" => array(
+                "title" => "Fitness apparel",
+                "desc" => "Landing page for comfortable and stylish sportswear."
+            ),
+
+            "ru" => array(
+                "title" => "Фитнес-одежда",
+                "desc" => "Лендинг для удобной и стильной спортивной одежды."
+            ),
+
+            "uk" => array(
+                "title" => "Фітнес-одяг",
+                "desc" => "Лендінг для зручного та стильного спортивного одягу."
+            )
+        ),
+        "tech" => "Bitrix24",
+        "image" => "project-31.jpg",
+        "link" => "https://b24-8h883x.bitrix24.site",
+        "tag" => "Fitness",
+        "cat" => "design bitrix"
     ],
     [
         "lang" => array(
@@ -299,29 +257,7 @@ $proj = array(
         "tag" => "MusicBox",
         "cat" => "layout design react"
     ],
-    [
-        "lang" => array(
-            "en" => array(
-                "title" => "TODO List",
-                "desc" => "A Vue.js widget for creating a personal to-do list with the ability to mark and delete items."
-            ),
 
-            "ru" => array(
-                "title" => "Список TODO",
-                "desc" => "Виджет на Vue.js для создания собственного списка дел с возможностью отмечать и удалять пункты."
-            ),
-
-            "uk" => array(
-                "title" => "Список TODO",
-                "desc" => "Віджет на Vue.js для створення власного списку справ з можливістю позначати та видаляти пункти."
-            )
-        ),
-        "tech" => "HTML, CSS, Vue",
-        "image" => "project-16.jpg",
-        "link" => "https://codepen.io/2splband/pen/JjaarGr",
-        "tag" => "TODO List",
-        "cat" => "layout design vue widgets"
-    ],
     [
         "lang" => array(
             "en" => array(
@@ -345,75 +281,7 @@ $proj = array(
         "tag" => "SaveThePlanet",
         "cat" => "layout design js"
     ],
-    [
-        "lang" => array(
-            "en" => array(
-                "title" => "Cost calculator for stretch ceilings",
-                "desc" => "Find out the cost of stretch ceilings with installation right now."
-            ),
 
-            "ru" => array(
-                "title" => "Калькулятор стоимости натяжных потолков",
-                "desc" => "Узнайте стоимость натяжных потолков с монтажом уже сейчас."
-            ),
-
-            "uk" => array(
-                "title" => "Калькулятор вартості натяжних стель",
-                "desc" => "Дізнайтеся вартість натяжних стель з монтажем прямо зараз."
-            )
-        ),
-        "tech" => "HTML, CSS, Vanilla JS",
-        "image" => "project-18.jpg",
-        "link" => "https://codepen.io/2splband/details/MWqpNZJ",
-        "tag" => "Calculator",
-        "cat" => "layout design js widgets"
-    ],
-    [
-        "lang" => array(
-            "en" => array(
-                "title" => "Consolidated cargo calculator",
-                "desc" => "An accurate calculator for a website, made in Vanilla JS."
-            ),
-
-            "ru" => array(
-                "title" => "Калькулятор сборных грузов",
-                "desc" => "Точный калькулятор для сайта, выполненный на Vanila JS."
-            ),
-
-            "uk" => array(
-                "title" => "Калькулятор зібраних вантажів",
-                "desc" => "Точний калькулятор для сайту, виконаний на Vanilla JS."
-            )
-        ),
-        "tech" => "HTML, CSS, Vanilla JS",
-        "image" => "project-19.jpg",
-        "link" => "https://codepen.io/2splband/pen/eYLvqjv",
-        "tag" => "Calculator",
-        "cat" => "layout design js widgets"
-    ],
-    [
-        "lang" => array(
-            "en" => array(
-                "title" => "Flappy Bird on React",
-                "desc" => "A simplified version of the famous game Flappy Bird, made using the React library."
-            ),
-
-            "ru" => array(
-                "title" => "Flappy Bird на React",
-                "desc" => "Упрощенная версия известной игры Flappy Bird, выполненная с помощью библиотеки React."
-            ),
-
-            "uk" => array(
-                "title" => "Flappy Bird на React",
-                "desc" => "Точний калькулятор для сайту, виконаний на Vanilla JS."
-            )
-        ),
-        "tech" => "HTML, CSS, React",
-        "image" => "project-20.jpg",
-        "link" => "https://codepen.io/2splband/pen/oNPwVwv",
-        "tag" => "Flappy Bird",
-        "cat" => "games react"
-    ],
     [
         "lang" => array(
             "en" => array(
@@ -483,52 +351,8 @@ $proj = array(
         "tag" => "Game",
         "cat" => "js games"
     ],
-    [
-        "lang" => array(
-            "en" => array(
-                "title" => "2SPLBand",
-                "desc" => "Website for live streaming of a music band on React."
-            ),
 
-            "ru" => array(
-                "title" => "2SPLBand",
-                "desc" => "Сайт для проведения стримов музыкальной группы на React."
-            ),
 
-            "uk" => array(
-                "title" => "2SPLBand",
-                "desc" => "Сайт для проведення стрімів музичної групи на React."
-            )
-        ),
-        "tech" => "HTML, CSS, React",
-        "image" => "project-24.jpg",
-        "link" => "https://untidying-administr.000webhostapp.com/",
-        "tag" => "2SPLBand",
-        "cat" => "react layout"
-    ],
-    [
-        "lang" => array(
-            "en" => array(
-                "title" => "Дай Лапу",
-                "desc" => "Landing page for a dog trainer's services on the Bitrix24 platform."
-            ),
-
-            "ru" => array(
-                "title" => "Дай Лапу",
-                "desc" => "Лендинг для услуг кинолога на платформе Bitrix24."
-            ),
-
-            "uk" => array(
-                "title" => "Дай Лапу",
-                "desc" => "Лендінг для послуг кінолога на платформі Bitrix24."
-            )
-        ),
-        "tech" => "Bitrix24",
-        "image" => "project-25.jpg",
-        "link" => "https://b24-tk1bva.bitrix24.site",
-        "tag" => "Дай Лапу",
-        "cat" => "design bitrix"
-    ],
     [
         "lang" => array(
             "en" => array(
@@ -621,29 +445,7 @@ $proj = array(
         "tag" => "Bathroom",
         "cat" => "design bitrix"
     ],
-    [
-        "lang" => array(
-            "en" => array(
-                "title" => "Fitness apparel",
-                "desc" => "Landing page for comfortable and stylish sportswear."
-            ),
 
-            "ru" => array(
-                "title" => "Фитнес-одежда",
-                "desc" => "Лендинг для удобной и стильной спортивной одежды."
-            ),
-
-            "uk" => array(
-                "title" => "Фітнес-одяг",
-                "desc" => "Лендінг для зручного та стильного спортивного одягу."
-            )
-        ),
-        "tech" => "Bitrix24",
-        "image" => "project-31.jpg",
-        "link" => "https://b24-8h883x.bitrix24.site",
-        "tag" => "Fitness",
-        "cat" => "design bitrix"
-    ],
     [
         "lang" => array(
             "en" => array(
@@ -713,28 +515,30 @@ $proj = array(
         "tag" => "Painting",
         "cat" => "design bitrix"
     ],
+
+
     [
         "lang" => array(
             "en" => array(
-                "title" => "Custom cake landing page",
-                "desc" => "Template for custom cake and pastry baking services on the Bitrix24 platform."
+                "title" => "PhotoShot Website",
+                "desc" => "PhotoShot - a website for on-location photo and video services."
             ),
 
             "ru" => array(
-                "title" => "Лендинг для тортов на заказ",
-                "desc" => "Шаблон для выпечки тортов и вкусняшек на платформе Bitrix24."
+                "title" => "PhotoShot",
+                "desc" => "PhotoShot - сайт для услуг фото- и видеосъемки с выездом на дом. "
             ),
 
             "uk" => array(
-                "title" => "Лендінг для тортів на замовлення",
-                "desc" => "Шаблон для випічки тортів та смаколиків на платформі Bitrix24."
+                "title" => "PhotoShot",
+                "desc" => "PhotoShot - сайт для послуг фото- та відеозйомки з виїздом."
             )
         ),
-        "tech" => "Bitrix24",
-        "image" => "project-35.jpg",
-        "link" => "https://b24-xg6ba9.bitrix24.site",
-        "tag" => "Cakes",
-        "cat" => "design bitrix"
+        "tech" => "HTML, CSS, React",
+        "image" => "project-12.jpg",
+        "link" => "https://cozy-manatee-68aba8.netlify.app/",
+        "tag" => "PhotoShot",
+        "cat" => "layout design react"
     ],
     [
         "lang" => array(
@@ -999,6 +803,357 @@ $proj = array(
         "tag" => "Unicorn",
         "cat" => "design tilda games"
     ],
+    [
+        "lang" => array(
+
+            "en" => array(
+                "title" => "Vivo Furniture",
+                "desc" => "Stylish solution for a home furniture sales company using React and Bootstrap."
+            ),
+
+            "ru" => array(
+                "title" => "Vivo Furniture",
+                "desc" => "Стильное решение для компании по продаже мебели для дома на React и Bootstrap."
+            ),
+
+            "uk" => array(
+                "title" => "Vivo Furniture",
+                "desc" => "Стильне рішення для компанії з продажу меблів для дому на React і Bootstrap."
+            )
+        ),
+        "tech" => "HTML, CSS, Bootstrap, React",
+        "image" => "project-47.jpg",
+        "link" => "https://fabulous-cajeta-d4fc2d.netlify.app/",
+        "tag" => "Vivo Furniture",
+        "cat" => "design react layout bootstrap"
+    ],
+
+
+    [
+        "lang" => array(
+
+            "en" => array(
+                "title" => "Ballet Studio",
+                "desc" => "The landing page for the Ballet Studio ballet school is built on Elementor."
+            ),
+
+            "ru" => array(
+                "title" => "Ballet Studio",
+                "desc" => "Лендинг для школы балета Ballet Studio выполнен на Elementor."
+            ),
+
+            "uk" => array(
+                "title" => "Ballet Studio",
+                "desc" => "Лендинг для балетної школи Ballet Studio виконаний на Elementor."
+            )
+        ),
+        "tech" => "HTML, CSS, Elementor, Wordpress",
+        "image" => "project-50.jpg",
+        "link" => "https://drive.google.com/drive/folders/1Edpt3qU2-IjTloHOHjMa2sXdA9ZWkAjg?usp=sharing",
+        "tag" => "Ballet",
+        "cat" => "design wordpress"
+    ],
+    [
+        "lang" => array(
+
+            "en" => array(
+                "title" => "DolpFun",
+                "desc" => "DolpFun - an attractive website on Wordpress for a Kyiv dolphinarium."
+            ),
+
+            "ru" => array(
+                "title" => "DolpFun",
+                "desc" => "DolpFun - привлекательный сайт на Wordpress для киевского дельфинария."
+            ),
+
+            "uk" => array(
+                "title" => "DolpFun",
+                "desc" => "DolpFun - привабливий сайт на Wordpress для київського дельфінарію."
+            )
+        ),
+        "tech" => "HTML, CSS, Bootstrap, Wordpress",
+        "image" => "project-51.jpg",
+        "link" => "https://drive.google.com/drive/folders/17zbo3310XHZ3BghazWLLJjbrFwwo2zl3?usp=sharing",
+        "tag" => "DolpFun",
+        "cat" => "design layout bootstrap wordpress php"
+    ],
+    [
+        "lang" => array(
+
+            "en" => array(
+                "title" => "FlowerWish",
+                "desc" => "FlowerWish - a multifunctional online store on Woocommerce."
+            ),
+
+            "ru" => array(
+                "title" => "FlowerWish",
+                "desc" => "FlowerWish - многофункциональный интернет-магазин на Woocommerce."
+            ),
+
+            "uk" => array(
+                "title" => "FlowerWish",
+                "desc" => "FlowerWish - багатофункціональний інтернет-магазин на Woocommerce."
+            )
+        ),
+        "tech" => "HTML, CSS, Bootstrap, Wordpress, Woocommerce",
+        "image" => "project-52.jpg",
+        "link" => "https://drive.google.com/drive/folders/1dIEpB-_Dc6UDLuRgROfr9QMMOHfKEB9o?usp=sharing",
+        "tag" => "FlowerWish",
+        "cat" => "design layout bootstrap wordpress php"
+    ],
+    [
+        "lang" => array(
+            "en" => array(
+                "title" => "Magic Forest Parallax",
+                "desc" => "A demonstration website made using parallax scrolling effect."
+            ),
+
+            "ru" => array(
+                "title" => "Магический параллакс",
+                "desc" => "Демонстрационный сайт, выполненый с использованием параллакс-эффекта при прокрутке страницы."
+            ),
+
+            "uk" => array(
+                "title" => "Магичічний паралакс",
+                "desc" => "Демонстраційний сайт, створений з використанням ефекту паралаксу при прокрутці сторінки."
+            )
+        ),
+        "tech" => "HTML, CSS, Vanilla JS",
+        "image" => "project-1.jpg",
+        "link" => "https://2splfreelance.000webhostapp.com/codepen/ForestParallaxScroll/",
+        "tag" => "Parallax",
+        "cat" => "layout js design"
+    ],
+    [
+        "lang" => array(
+            "en" => array(
+                "title" => "Crazy Cat",
+                "desc" => "A simple React game where you play as a jumping cat."
+            ),
+
+            "ru" => array(
+                "title" => "Прыгай, если сможешь",
+                "desc" => "Простая игра на React с прыгающим котом в главной роли."
+            ),
+
+            "uk" => array(
+                "title" => "Стрибай, якщо зможеш",
+                "desc" => "Проста гра на React зі стрибаючим котом у головній ролі."
+            )
+        ),
+        "tech" => "HTML, CSS, React",
+        "image" => "project-2.jpg",
+        "link" => "https://codepen.io/2splband/pen/OJomMPB",
+        "tag" => "Game",
+        "cat" => "react games"
+    ],
+    [
+        "lang" => array(
+            "en" => array(
+                "title" => "Parallax Slider",
+                "desc" => "A website header slider with a parallax effect when scrolling the page."
+            ),
+
+            "ru" => array(
+                "title" => "Слайдер з параллакс-эффектом",
+                "desc" => "Слайдер для шапки сайта с использованием параллакс-эффекта при прокрутке страницы."
+            ),
+
+            "uk" => array(
+                "title" => "Слайдер з паралакс-эфектом",
+                "desc" => "Слайдер для шапки сайту з використанням паралакс-ефекту при прокручуванні сторінки."
+            )
+        ),
+        "tech" => "HTML, CSS, Vanilla JS",
+        "image" => "project-3.jpg",
+        "link" => "https://2splfreelance.000webhostapp.com/codepen/JsSliderBeautyParallax/",
+        "tag" => "Slider",
+        "cat" => "widgets js"
+    ],
+    [
+        "lang" => array(
+            "en" => array(
+                "title" => "Music Player",
+                "desc" => "A stylized audio player for a website."
+            ),
+
+            "ru" => array(
+                "title" => "Аудио проигрыватель",
+                "desc" => "Стилизованный аудиоплеер для сайта."
+            ),
+
+            "uk" => array(
+                "title" => "Аудіо програвач",
+                "desc" => "Стилізований аудіоплеєр для сайту."
+            )
+        ),
+        "tech" => "HTML, CSS, Vanilla JS",
+        "image" => "project-4.jpg",
+        "link" => "https://2splfreelance.000webhostapp.com/codepen/StyledAudioPlayer/",
+        "tag" => "Audio",
+        "cat" => "widgets js"
+    ],
+    [
+        "lang" => array(
+            "en" => array(
+                "title" => "Bouquet Calculator",
+                "desc" => "Convenient bouquet calculator for a website on Vue.js."
+            ),
+
+            "ru" => array(
+                "title" => "Калькулятор букетов",
+                "desc" => "Удобный калькулятор букетов для сайта на Vue.js."
+            ),
+
+            "uk" => array(
+                "title" => "Калькулятор букетів",
+                "desc" => "Зручний калькулятор букетів для сайту на Vue.js."
+            )
+        ),
+        "tech" => "HTML, CSS, Vue.js",
+        "image" => "project-7.jpg",
+        "link" => "https://codepen.io/2splband/pen/jOvvQaG",
+        "tag" => "Calculator",
+        "cat" => "layout vue design widgets"
+    ],
+    [
+        "lang" => array(
+            "en" => array(
+                "title" => "AdBoost Landing",
+                "desc" => "A creative landing page for a company that specializes in creating advertising."
+            ),
+
+            "ru" => array(
+                "title" => "Лендинг AdBoost",
+                "desc" => "Кретивный лендинг для компании, которая занимается созданием рекламы."
+            ),
+
+            "uk" => array(
+                "title" => "Лендінг AdBoost",
+                "desc" => "Креативний лендінг для компанії, яка займається створенням реклами."
+            )
+        ),
+        "tech" => "HTML, CSS, Jquery, Bootstrap",
+        "image" => "project-8.jpg",
+        "link" => "https://2splfreelance.000webhostapp.com/local/AdvertisingLanding/",
+        "tag" => "AdBoost",
+        "cat" => "layout bootstrap design js"
+    ],
+    [
+        "lang" => array(
+            "en" => array(
+                "title" => "Shopping Cart Template",
+                "desc" => "A simple internet shop cart page, designed with SASS/SCSS."
+            ),
+
+            "ru" => array(
+                "title" => "Шаблон для корзины онлайн-товаров",
+                "desc" => "Простая страничка для корзины интернет-магазина, выполненная на SASS/SCSS."
+            ),
+
+            "uk" => array(
+                "title" => "Шаблон для онлайн-кошика товарів",
+                "desc" => "Проста сторінка для кошика інтернет-магазину, виконана на SASS/SCSS."
+            )
+        ),
+        "tech" => "HTML, SCSS",
+        "image" => "project-9.jpg",
+        "link" => "https://2splfreelance.000webhostapp.com/local/CartSass/",
+        "tag" => "Cart",
+        "cat" => "layout design"
+    ],
+    [
+        "lang" => array(
+            "en" => array(
+                "title" => "TODO List",
+                "desc" => "A Vue.js widget for creating a personal to-do list with the ability to mark and delete items."
+            ),
+
+            "ru" => array(
+                "title" => "Список TODO",
+                "desc" => "Виджет на Vue.js для создания собственного списка дел с возможностью отмечать и удалять пункты."
+            ),
+
+            "uk" => array(
+                "title" => "Список TODO",
+                "desc" => "Віджет на Vue.js для створення власного списку справ з можливістю позначати та видаляти пункти."
+            )
+        ),
+        "tech" => "HTML, CSS, Vue",
+        "image" => "project-16.jpg",
+        "link" => "https://codepen.io/2splband/pen/JjaarGr",
+        "tag" => "TODO List",
+        "cat" => "layout design vue widgets"
+    ],
+    [
+        "lang" => array(
+            "en" => array(
+                "title" => "Cost calculator for stretch ceilings",
+                "desc" => "Find out the cost of stretch ceilings with installation right now."
+            ),
+
+            "ru" => array(
+                "title" => "Калькулятор стоимости натяжных потолков",
+                "desc" => "Узнайте стоимость натяжных потолков с монтажом уже сейчас."
+            ),
+
+            "uk" => array(
+                "title" => "Калькулятор вартості натяжних стель",
+                "desc" => "Дізнайтеся вартість натяжних стель з монтажем прямо зараз."
+            )
+        ),
+        "tech" => "HTML, CSS, Vanilla JS",
+        "image" => "project-18.jpg",
+        "link" => "https://codepen.io/2splband/details/MWqpNZJ",
+        "tag" => "Calculator",
+        "cat" => "layout design js widgets"
+    ],
+    [
+        "lang" => array(
+            "en" => array(
+                "title" => "Consolidated cargo calculator",
+                "desc" => "An accurate calculator for a website, made in Vanilla JS."
+            ),
+
+            "ru" => array(
+                "title" => "Калькулятор сборных грузов",
+                "desc" => "Точный калькулятор для сайта, выполненный на Vanila JS."
+            ),
+
+            "uk" => array(
+                "title" => "Калькулятор зібраних вантажів",
+                "desc" => "Точний калькулятор для сайту, виконаний на Vanilla JS."
+            )
+        ),
+        "tech" => "HTML, CSS, Vanilla JS",
+        "image" => "project-19.jpg",
+        "link" => "https://codepen.io/2splband/pen/eYLvqjv",
+        "tag" => "Calculator",
+        "cat" => "layout design js widgets"
+    ],
+    [
+        "lang" => array(
+            "en" => array(
+                "title" => "Flappy Bird on React",
+                "desc" => "A simplified version of the famous game Flappy Bird, made using the React library."
+            ),
+
+            "ru" => array(
+                "title" => "Flappy Bird на React",
+                "desc" => "Упрощенная версия известной игры Flappy Bird, выполненная с помощью библиотеки React."
+            ),
+
+            "uk" => array(
+                "title" => "Flappy Bird на React",
+                "desc" => "Точний калькулятор для сайту, виконаний на Vanilla JS."
+            )
+        ),
+        "tech" => "HTML, CSS, React",
+        "image" => "project-20.jpg",
+        "link" => "https://codepen.io/2splband/pen/oNPwVwv",
+        "tag" => "Flappy Bird",
+        "cat" => "games react"
+    ],
 
 
 
@@ -1037,7 +1192,7 @@ $proj = array(
         "image" => "project-5.jpg",
         "link" => "https://codepen.io/2splband/",
         "tag" => "Codepen",
-        "cat" => "layout wordpress react vue bootstrap js games design widgets"
+        "cat" => "layout react vue bootstrap js games design widgets"
     ],
     [
         "lang" => array(
@@ -1060,6 +1215,6 @@ $proj = array(
         "image" => "project-6.jpg",
         "link" => "https://github.com/Larisa-Pomidor",
         "tag" => "Github",
-        "cat" => "layout wordpress react vue bootstrap js games design widgets php wordpress"
+        "cat" => "layout wordpress react vue bootstrap js games design widgets php wordpress php"
     ]
 );
